@@ -1,0 +1,41 @@
+Title of this code
+Rextester.Program.Main is the entry point for your code. Don't change it.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Rextester
+{
+  public  class Program
+{
+   public  static void Main(System.String[] args)
+    {
+         Read in every line in the file.
+
+            string no=4563;
+            int number=4563;
+            int[] array=new int[10] {48,49,50,51,52,53,54,55,56,57};
+ 
+            for(int i=0;ino.Length;i++)
+            {
+                int mod=number%10;
+                if(no[no.Length-i-1] == (int)array.GetValue(mod))
+                {
+                    number=number10;
+                    continue;
+ 
+                }
+                else
+                {
+                    Console.WriteLine(not equal);
+                    break;
+                }
+            }
+ 
+            Console.WriteLine(equal);
+ 
+        }
+    }
+}
